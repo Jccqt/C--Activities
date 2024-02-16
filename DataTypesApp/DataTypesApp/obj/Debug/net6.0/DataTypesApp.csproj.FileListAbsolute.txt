@@ -1,0 +1,15 @@
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\bin\Debug\net6.0\DataTypesApp.exe
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\bin\Debug\net6.0\DataTypesApp.deps.json
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\bin\Debug\net6.0\DataTypesApp.runtimeconfig.json
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\bin\Debug\net6.0\DataTypesApp.dll
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\bin\Debug\net6.0\DataTypesApp.pdb
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.csproj.AssemblyReference.cache
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.AssemblyInfoInputs.cache
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.AssemblyInfo.cs
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.csproj.CoreCompileInputs.cache
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.dll
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\refint\DataTypesApp.dll
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.pdb
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\DataTypesApp.genruntimeconfig.cache
+C:\Users\calayag.297700\source\repos\DataTypesApp\DataTypesApp\obj\Debug\net6.0\ref\DataTypesApp.dll
