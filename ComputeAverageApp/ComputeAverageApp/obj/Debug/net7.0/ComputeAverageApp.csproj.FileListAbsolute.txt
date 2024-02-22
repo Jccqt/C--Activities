@@ -1,0 +1,15 @@
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\bin\Debug\net7.0\ComputeAverageApp.exe
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\bin\Debug\net7.0\ComputeAverageApp.deps.json
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\bin\Debug\net7.0\ComputeAverageApp.runtimeconfig.json
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\bin\Debug\net7.0\ComputeAverageApp.dll
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\bin\Debug\net7.0\ComputeAverageApp.pdb
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.csproj.AssemblyReference.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.GeneratedMSBuildEditorConfig.editorconfig
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.AssemblyInfoInputs.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.AssemblyInfo.cs
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.csproj.CoreCompileInputs.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.dll
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\refint\ComputeAverageApp.dll
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.pdb
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ComputeAverageApp.genruntimeconfig.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\ComputeAverageApp\ComputeAverageApp\obj\Debug\net7.0\ref\ComputeAverageApp.dll
