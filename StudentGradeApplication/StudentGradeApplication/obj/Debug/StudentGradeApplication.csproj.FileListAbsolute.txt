@@ -1,0 +1,11 @@
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\bin\Debug\StudentGradeApplication.exe.config
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\bin\Debug\StudentGradeApplication.exe
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\bin\Debug\StudentGradeApplication.pdb
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.csproj.AssemblyReference.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.csproj.SuggestedBindingRedirects.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.Form1.resources
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.Properties.Resources.resources
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.csproj.GenerateResource.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.csproj.CoreCompileInputs.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.exe
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentGradeApplication\StudentGradeApplication\obj\Debug\StudentGradeApplication.pdb
