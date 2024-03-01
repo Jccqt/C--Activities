@@ -1,0 +1,11 @@
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\bin\Debug\StudentRegistrationApplication.exe.config
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\bin\Debug\StudentRegistrationApplication.exe
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\bin\Debug\StudentRegistrationApplication.pdb
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.AssemblyReference.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.SuggestedBindingRedirects.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.Form1.resources
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.Properties.Resources.resources
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.GenerateResource.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.CoreCompileInputs.cache
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.exe
+\\10.20.1.10\profiles$\calayag.297700.STIBALAGTAS\Jc\CSharp-Activities\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.pdb
