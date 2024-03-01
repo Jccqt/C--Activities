@@ -48,6 +48,9 @@
             this.FirstNameWarning = new System.Windows.Forms.Label();
             this.GenderWarning = new System.Windows.Forms.Label();
             this.BirthWarning = new System.Windows.Forms.Label();
+            this.Programs = new System.Windows.Forms.Label();
+            this.ProgramsBox = new System.Windows.Forms.ComboBox();
+            this.ProgramsBoxWarning = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Title
@@ -175,7 +178,7 @@
             // 
             this.Days.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Days.FormattingEnabled = true;
-            this.Days.Location = new System.Drawing.Point(15, 346);
+            this.Days.Location = new System.Drawing.Point(219, 344);
             this.Days.Name = "Days";
             this.Days.Size = new System.Drawing.Size(68, 28);
             this.Days.TabIndex = 12;
@@ -185,22 +188,23 @@
             // 
             this.Months.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Months.FormattingEnabled = true;
-            this.Months.Location = new System.Drawing.Point(89, 346);
+            this.Months.Location = new System.Drawing.Point(117, 344);
             this.Months.Name = "Months";
             this.Months.Size = new System.Drawing.Size(96, 28);
             this.Months.TabIndex = 13;
             this.Months.Text = "-Month";
- 
+            this.Months.SelectedIndexChanged += new System.EventHandler(this.Months_SelectedIndexChanged);
             // 
             // Years
             // 
             this.Years.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Years.FormattingEnabled = true;
-            this.Years.Location = new System.Drawing.Point(191, 346);
+            this.Years.Location = new System.Drawing.Point(15, 344);
             this.Years.Name = "Years";
             this.Years.Size = new System.Drawing.Size(96, 28);
             this.Years.TabIndex = 14;
             this.Years.Text = "-Year";
+            this.Years.SelectedIndexChanged += new System.EventHandler(this.Years_SelectedIndexChanged);
             // 
             // Register
             // 
@@ -208,7 +212,7 @@
             this.Register.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.Register.ForeColor = System.Drawing.Color.White;
-            this.Register.Location = new System.Drawing.Point(12, 389);
+            this.Register.Location = new System.Drawing.Point(15, 460);
             this.Register.Name = "Register";
             this.Register.Size = new System.Drawing.Size(152, 40);
             this.Register.TabIndex = 15;
@@ -264,11 +268,45 @@
             this.BirthWarning.Text = "Cannot be empty!";
             this.BirthWarning.Visible = false;
             // 
+            // Programs
+            // 
+            this.Programs.AutoSize = true;
+            this.Programs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Programs.Location = new System.Drawing.Point(12, 388);
+            this.Programs.Name = "Programs";
+            this.Programs.Size = new System.Drawing.Size(165, 20);
+            this.Programs.TabIndex = 20;
+            this.Programs.Text = "Programs to apply *";
+            // 
+            // ProgramsBox
+            // 
+            this.ProgramsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.ProgramsBox.FormattingEnabled = true;
+            this.ProgramsBox.Location = new System.Drawing.Point(15, 411);
+            this.ProgramsBox.Name = "ProgramsBox";
+            this.ProgramsBox.Size = new System.Drawing.Size(272, 28);
+            this.ProgramsBox.TabIndex = 21;
+            // 
+            // ProgramsBoxWarning
+            // 
+            this.ProgramsBoxWarning.AutoSize = true;
+            this.ProgramsBoxWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProgramsBoxWarning.ForeColor = System.Drawing.Color.Red;
+            this.ProgramsBoxWarning.Location = new System.Drawing.Point(176, 395);
+            this.ProgramsBoxWarning.Name = "ProgramsBoxWarning";
+            this.ProgramsBoxWarning.Size = new System.Drawing.Size(106, 13);
+            this.ProgramsBoxWarning.TabIndex = 22;
+            this.ProgramsBoxWarning.Text = "Cannot be empty!";
+            this.ProgramsBoxWarning.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 440);
+            this.ClientSize = new System.Drawing.Size(347, 512);
+            this.Controls.Add(this.ProgramsBoxWarning);
+            this.Controls.Add(this.ProgramsBox);
+            this.Controls.Add(this.Programs);
             this.Controls.Add(this.BirthWarning);
             this.Controls.Add(this.GenderWarning);
             this.Controls.Add(this.FirstNameWarning);
@@ -290,7 +328,7 @@
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.Title);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Student Registration Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,6 +356,9 @@
         private System.Windows.Forms.Label FirstNameWarning;
         private System.Windows.Forms.Label GenderWarning;
         private System.Windows.Forms.Label BirthWarning;
+        private System.Windows.Forms.Label Programs;
+        private System.Windows.Forms.ComboBox ProgramsBox;
+        private System.Windows.Forms.Label ProgramsBoxWarning;
     }
 }
 
