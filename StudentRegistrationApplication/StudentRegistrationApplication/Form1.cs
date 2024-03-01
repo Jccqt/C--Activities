@@ -17,7 +17,7 @@ namespace StudentRegistrationApplication
         {
             InitializeComponent();
 
-            for(int i = 1990; i <= 2024; i++)
+            for(int i = 1900; i <= 2024; i++)
             {
                 Years.Items.Add(i);
             }
