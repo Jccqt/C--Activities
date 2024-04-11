@@ -98,7 +98,7 @@ namespace WordGuessApplication
 
             for (int i = 1; i < word.Length - 2; i++)
             {
-                word[i] = "*";
+                word[i] = "?";
             }
 
             for (int i = 0; i < word.Length; i++)
