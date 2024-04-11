@@ -1,0 +1,10 @@
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\bin\Debug\WordGuessApplication.exe.config
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\bin\Debug\WordGuessApplication.exe
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\bin\Debug\WordGuessApplication.pdb
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.csproj.AssemblyReference.cache
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.frmGuessWord.resources
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.Properties.Resources.resources
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.csproj.GenerateResource.cache
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.csproj.CoreCompileInputs.cache
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.exe
+E:\CSharp-Activities\WordGuessApplication\WordGuessApplication\obj\Debug\WordGuessApplication.pdb
