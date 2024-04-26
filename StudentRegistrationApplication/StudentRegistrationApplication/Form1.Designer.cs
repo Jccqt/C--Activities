@@ -44,13 +44,12 @@
             this.Months = new System.Windows.Forms.ComboBox();
             this.Years = new System.Windows.Forms.ComboBox();
             this.Register = new System.Windows.Forms.Button();
-            this.LastNameWarning = new System.Windows.Forms.Label();
-            this.FirstNameWarning = new System.Windows.Forms.Label();
-            this.GenderWarning = new System.Windows.Forms.Label();
-            this.BirthWarning = new System.Windows.Forms.Label();
             this.Programs = new System.Windows.Forms.Label();
             this.ProgramsBox = new System.Windows.Forms.ComboBox();
-            this.ProgramsBoxWarning = new System.Windows.Forms.Label();
+            this.PictureBox = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.BrowseBtn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // Title
@@ -220,54 +219,6 @@
             this.Register.UseVisualStyleBackColor = false;
             this.Register.Click += new System.EventHandler(this.Register_Click);
             // 
-            // LastNameWarning
-            // 
-            this.LastNameWarning.AutoSize = true;
-            this.LastNameWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LastNameWarning.ForeColor = System.Drawing.Color.Red;
-            this.LastNameWarning.Location = new System.Drawing.Point(120, 92);
-            this.LastNameWarning.Name = "LastNameWarning";
-            this.LastNameWarning.Size = new System.Drawing.Size(106, 13);
-            this.LastNameWarning.TabIndex = 16;
-            this.LastNameWarning.Text = "Cannot be empty!";
-            this.LastNameWarning.Visible = false;
-            // 
-            // FirstNameWarning
-            // 
-            this.FirstNameWarning.AutoSize = true;
-            this.FirstNameWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FirstNameWarning.ForeColor = System.Drawing.Color.Red;
-            this.FirstNameWarning.Location = new System.Drawing.Point(120, 155);
-            this.FirstNameWarning.Name = "FirstNameWarning";
-            this.FirstNameWarning.Size = new System.Drawing.Size(106, 13);
-            this.FirstNameWarning.TabIndex = 17;
-            this.FirstNameWarning.Text = "Cannot be empty!";
-            this.FirstNameWarning.Visible = false;
-            // 
-            // GenderWarning
-            // 
-            this.GenderWarning.AutoSize = true;
-            this.GenderWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GenderWarning.ForeColor = System.Drawing.Color.Red;
-            this.GenderWarning.Location = new System.Drawing.Point(108, 274);
-            this.GenderWarning.Name = "GenderWarning";
-            this.GenderWarning.Size = new System.Drawing.Size(106, 13);
-            this.GenderWarning.TabIndex = 18;
-            this.GenderWarning.Text = "Cannot be empty!";
-            this.GenderWarning.Visible = false;
-            // 
-            // BirthWarning
-            // 
-            this.BirthWarning.AutoSize = true;
-            this.BirthWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BirthWarning.ForeColor = System.Drawing.Color.Red;
-            this.BirthWarning.Location = new System.Drawing.Point(141, 328);
-            this.BirthWarning.Name = "BirthWarning";
-            this.BirthWarning.Size = new System.Drawing.Size(106, 13);
-            this.BirthWarning.TabIndex = 19;
-            this.BirthWarning.Text = "Cannot be empty!";
-            this.BirthWarning.Visible = false;
-            // 
             // Programs
             // 
             this.Programs.AutoSize = true;
@@ -287,30 +238,42 @@
             this.ProgramsBox.Size = new System.Drawing.Size(272, 28);
             this.ProgramsBox.TabIndex = 21;
             // 
-            // ProgramsBoxWarning
+            // PictureBox
             // 
-            this.ProgramsBoxWarning.AutoSize = true;
-            this.ProgramsBoxWarning.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProgramsBoxWarning.ForeColor = System.Drawing.Color.Red;
-            this.ProgramsBoxWarning.Location = new System.Drawing.Point(176, 395);
-            this.ProgramsBoxWarning.Name = "ProgramsBoxWarning";
-            this.ProgramsBoxWarning.Size = new System.Drawing.Size(106, 13);
-            this.ProgramsBoxWarning.TabIndex = 22;
-            this.ProgramsBoxWarning.Text = "Cannot be empty!";
-            this.ProgramsBoxWarning.Visible = false;
+            this.PictureBox.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.PictureBox.Location = new System.Drawing.Point(309, 85);
+            this.PictureBox.Name = "PictureBox";
+            this.PictureBox.Size = new System.Drawing.Size(201, 172);
+            this.PictureBox.TabIndex = 23;
+            this.PictureBox.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.DefaultExt = "png";
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Filter = "PNG files|*.png";
+            // 
+            // BrowseBtn
+            // 
+            this.BrowseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BrowseBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BrowseBtn.Location = new System.Drawing.Point(366, 263);
+            this.BrowseBtn.Name = "BrowseBtn";
+            this.BrowseBtn.Size = new System.Drawing.Size(88, 31);
+            this.BrowseBtn.TabIndex = 24;
+            this.BrowseBtn.Text = "Browse";
+            this.BrowseBtn.UseVisualStyleBackColor = true;
+            this.BrowseBtn.Click += new System.EventHandler(this.BrowseBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(347, 512);
-            this.Controls.Add(this.ProgramsBoxWarning);
+            this.ClientSize = new System.Drawing.Size(521, 512);
+            this.Controls.Add(this.BrowseBtn);
+            this.Controls.Add(this.PictureBox);
             this.Controls.Add(this.ProgramsBox);
             this.Controls.Add(this.Programs);
-            this.Controls.Add(this.BirthWarning);
-            this.Controls.Add(this.GenderWarning);
-            this.Controls.Add(this.FirstNameWarning);
-            this.Controls.Add(this.LastNameWarning);
             this.Controls.Add(this.Register);
             this.Controls.Add(this.Years);
             this.Controls.Add(this.Months);
@@ -328,7 +291,9 @@
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.Title);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Student Registration Form";
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -352,13 +317,11 @@
         private System.Windows.Forms.ComboBox Months;
         private System.Windows.Forms.ComboBox Years;
         private System.Windows.Forms.Button Register;
-        private System.Windows.Forms.Label LastNameWarning;
-        private System.Windows.Forms.Label FirstNameWarning;
-        private System.Windows.Forms.Label GenderWarning;
-        private System.Windows.Forms.Label BirthWarning;
         private System.Windows.Forms.Label Programs;
         private System.Windows.Forms.ComboBox ProgramsBox;
-        private System.Windows.Forms.Label ProgramsBoxWarning;
+        private System.Windows.Forms.PictureBox PictureBox;
+        private System.Windows.Forms.Button BrowseBtn;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 

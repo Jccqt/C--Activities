@@ -13,6 +13,7 @@ namespace StudentRegistrationApplication
 {
     public partial class Form1 : Form
     {
+        static string genderMain = "";
         public Form1()
         {
             InitializeComponent();
@@ -45,80 +46,42 @@ namespace StudentRegistrationApplication
         } // end of Form1 method
 
         private void Register_Click(object sender, EventArgs e)
-        {   
-
-            // will give warning if Last Name Box is empty
-            if (LastNameTextBox.Text.Equals(""))
-            {
-                LastNameWarning.Visible = true;
-            }
-            else
-            {
-                LastNameWarning.Visible = false;
-            }
-
-            // will give warning if First Name Box is empty
-            if (FirstNameTextBox.Text.Equals(""))
-            {
-                FirstNameWarning.Visible = true;
-            }
-            else
-            {
-                FirstNameWarning.Visible = false;
-            }
-
-            // will give warning if Male and Female Box is empty
-            if (!Male.Checked && !Female.Checked)
-            {
-                GenderWarning.Visible = true;
-            }
-            else
-            {
-                GenderWarning.Visible = false;
-            }
-
-            // will give warning if Birth date box is empty
-            if ((Days.Text.Equals("-Day") || Months.Text.Equals("-Month") || Years.Text.Equals("-Year"))
-                || (Days.Text.Equals("") || Months.Text.Equals("") || Years.Text.Equals("")))
-            {
-                BirthWarning.Visible = true;
-            }
-            else
-            {
-                BirthWarning.Visible = false;
-            }
-
-            // will give warning if Programs box is empty
-            if (ProgramsBox.Text.Equals(""))
-            {
-                ProgramsBoxWarning.Visible = true;
-            }
-            else
-            {
-                ProgramsBoxWarning.Visible = false;
-            }
-
-            string gender = "";
+        {
             if (Male.Checked)
             {
-                gender = "Male";
+                genderMain = "Male";
             }
             else
             {
-                gender = "Female";
+                genderMain = "Female";
+            }
+
+            if(FirstNameTextBox.Text.Equals("") && LastNameTextBox.Text.Equals("") && MiddleNameTextBox.Text.Equals("")
+                && ProgramsBox.Text.Equals("") && !Male.Checked && !Female.Checked && Days.Text.Equals("-Day")
+                && Months.Text.Equals("-Month") && Years.Text.Equals("-Year"))
+            {
+                Message();
+
+            } 
+            else if(MiddleNameTextBox.Text.Equals("") && !Male.Checked && !Female.Checked && Days.Text.Equals("-Day")
+                && Months.Text.Equals("-Month") && Years.Text.Equals("-Year"))
+            {
+                Message(FirstNameTextBox.Text, LastNameTextBox.Text, ProgramsBox.Text);
+            }
+            else if (!Male.Checked && !Female.Checked && Days.Text.Equals("-Day")
+                && Months.Text.Equals("-Month") && Years.Text.Equals("-Year"))
+            {
+                Message(FirstNameTextBox.Text, MiddleNameTextBox.Text, LastNameTextBox.Text, ProgramsBox.Text);
+            }
+            else if (Days.Text.Equals("-Day") || Months.Text.Equals("-Month") || Years.Text.Equals("-Year"))
+            {
+                Message(FirstNameTextBox.Text, MiddleNameTextBox.Text, LastNameTextBox.Text, genderMain, ProgramsBox.Text);
+            }
+            else
+            {
+                Message(FirstNameTextBox.Text, MiddleNameTextBox.Text, LastNameTextBox.Text, genderMain, Days.Text, Months.Text, Years.Text, ProgramsBox.Text);
             }
             
-            // will only print the message if there's no visible warning
-            if(LastNameWarning.Visible == false && FirstNameWarning.Visible == false && GenderWarning.Visible == false
-                && BirthWarning.Visible == false && ProgramsBoxWarning.Visible == false)
-            {
-                MessageBox.Show($"Student Name: {FirstNameTextBox.Text} {MiddleNameTextBox.Text} {LastNameTextBox.Text}"
-                + $"\nGender: {gender}"
-                + $"\nDate of Birth: {Days.Text}/{Months.Text}/{Years.Text}"
-                + $"\nProgram: {ProgramsBox.Text}");
-                MessageBox.Show($"{FirstNameTextBox.Text} has successfully registered!");
-                
-            }
         }// end of RegisterClick method
 
         private void Months_SelectedIndexChanged(object sender, EventArgs e)
@@ -165,5 +128,52 @@ namespace StudentRegistrationApplication
             Months.Text = ""; // will remove the text in Months box if Years text is changed
 
         } // end of Years_SelectedIndexChanged method
+
+        private void BrowseBtn_Click(object sender, EventArgs e)
+        {
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.ShowDialog();
+
+            if(openFile.ShowDialog() == DialogResult.OK)
+            {
+                PictureBox.Image = Bitmap.FromFile(openFile.FileName);
+            }
+
+        }
+
+        public void Message()
+        {
+            MessageBox.Show("No information added!" +
+                "\nCannot register the student.");
+        }// end of Message method with no parameters
+        public void Message(string firstName, string lastName, string program)
+        {
+            MessageBox.Show($"Student Name: {FirstNameTextBox.Text} {LastNameTextBox.Text}"
+                +$"\nProgram: {ProgramsBox.Text}");
+        }// end of Message method with 3 parameters
+
+        public void Message(string firstName, string middleName, string lastName, string program)
+        {
+
+            MessageBox.Show($"Student Name: {FirstNameTextBox.Text} {MiddleNameTextBox.Text} {LastNameTextBox.Text}"
+               + $"\nProgram: {ProgramsBox.Text}");
+        }// end of Message method with 4 parameters
+
+        public void Message(string firstName, string middleName, string lastName, string gender, string program)
+        {
+            MessageBox.Show($"Student Name: {FirstNameTextBox.Text} {MiddleNameTextBox.Text} {LastNameTextBox.Text}"
+                + $"\nGender: {genderMain}"
+               + $"\nProgram: {ProgramsBox.Text}");
+        }// end of Message method with 5 parameters
+
+        public void Message(string firstName, string middleName, string lastName, string gender, string day, string month, string year, string program)
+        {
+            MessageBox.Show($"Student Name: {FirstNameTextBox.Text} {MiddleNameTextBox.Text} {LastNameTextBox.Text}"
+                + $"\nGender: {genderMain}"
+                +$"\nDate of Birth: {Days.Text}/{Months.Text}/{Years.Text}"
+               + $"\nProgram: {ProgramsBox.Text}");
+        }// end of Message method with 8 parameters
     }
+
 }

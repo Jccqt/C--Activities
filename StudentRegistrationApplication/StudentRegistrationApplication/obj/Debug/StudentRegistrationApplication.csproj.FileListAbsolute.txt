@@ -19,3 +19,13 @@ E:\CSharp\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debu
 E:\CSharp\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.CoreCompileInputs.cache
 E:\CSharp\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.exe
 E:\CSharp\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.pdb
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\bin\Debug\StudentRegistrationApplication.exe.config
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\bin\Debug\StudentRegistrationApplication.exe
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\bin\Debug\StudentRegistrationApplication.pdb
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.AssemblyReference.cache
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.Form1.resources
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.Properties.Resources.resources
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.GenerateResource.cache
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.csproj.CoreCompileInputs.cache
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.exe
+C:\Users\calayag.297700\Downloads\CSharp-Activities-main\CSharp-Activities-main\StudentRegistrationApplication\StudentRegistrationApplication\obj\Debug\StudentRegistrationApplication.pdb
