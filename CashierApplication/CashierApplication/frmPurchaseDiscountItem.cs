@@ -14,6 +14,7 @@ namespace CashierApplication
     public partial class frmPurchaseDiscountItem : Form
     {
         static DiscountItem Item;
+        static frmLoginAccount Login = new frmLoginAccount();
         public frmPurchaseDiscountItem()
         {
             InitializeComponent();
@@ -37,6 +38,17 @@ namespace CashierApplication
                 MessageBox.Show("Insufficient payment!");
             }
             
+        }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Login.Show();
+            this.Hide();
+        }
+
+        private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

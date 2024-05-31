@@ -8,3 +8,4 @@ C:\Users\STI-STUDENT\source\repos\CashierApplication\CashierApplication\obj\Debu
 C:\Users\STI-STUDENT\source\repos\CashierApplication\CashierApplication\obj\Debug\CashierApplication.csproj.CoreCompileInputs.cache
 C:\Users\STI-STUDENT\source\repos\CashierApplication\CashierApplication\obj\Debug\CashierApplication.exe
 C:\Users\STI-STUDENT\source\repos\CashierApplication\CashierApplication\obj\Debug\CashierApplication.pdb
+C:\Users\STI-STUDENT\source\repos\CashierApplication\CashierApplication\obj\Debug\CashierApplication.frmLoginAccount.resources
