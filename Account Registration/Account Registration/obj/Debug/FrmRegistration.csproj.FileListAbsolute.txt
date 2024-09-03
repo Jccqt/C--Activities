@@ -1,0 +1,11 @@
+E:\CSharp Projects\Account Registration\Account Registration\bin\Debug\Account Registration.exe.config
+E:\CSharp Projects\Account Registration\Account Registration\bin\Debug\Account Registration.exe
+E:\CSharp Projects\Account Registration\Account Registration\bin\Debug\Account Registration.pdb
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\FrmRegistration.csproj.AssemblyReference.cache
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\Account_Registration.FrmConfirm.resources
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\Account_Registration.FrmRegistration.resources
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\Account_Registration.Properties.Resources.resources
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\FrmRegistration.csproj.GenerateResource.cache
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\FrmRegistration.csproj.CoreCompileInputs.cache
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\Account Registration.exe
+E:\CSharp Projects\Account Registration\Account Registration\obj\Debug\Account Registration.pdb
