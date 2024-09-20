@@ -1,0 +1,12 @@
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\bin\Debug\QueuingSystem.exe.config
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\bin\Debug\QueuingSystem.exe
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\bin\Debug\QueuingSystem.pdb
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.csproj.AssemblyReference.cache
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.CashierWindowQueueForm.resources
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.QueuingForm.resources
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.Properties.Resources.resources
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.csproj.GenerateResource.cache
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.csproj.CoreCompileInputs.cache
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.exe
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.pdb
+C:\Users\calayag.297700\source\repos\QueuingSystem\QueuingSystem\obj\Debug\QueuingSystem.CustomerView.resources
