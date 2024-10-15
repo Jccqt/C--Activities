@@ -1,0 +1,10 @@
+E:\CSharp Projects\frmTrackThread\frmTrackThread\bin\Debug\frmTrackThread.exe.config
+E:\CSharp Projects\frmTrackThread\frmTrackThread\bin\Debug\frmTrackThread.exe
+E:\CSharp Projects\frmTrackThread\frmTrackThread\bin\Debug\frmTrackThread.pdb
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.csproj.AssemblyReference.cache
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.frmTrackThread.resources
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.Properties.Resources.resources
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.csproj.GenerateResource.cache
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.csproj.CoreCompileInputs.cache
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.exe
+E:\CSharp Projects\frmTrackThread\frmTrackThread\obj\Debug\frmTrackThread.pdb
