@@ -1,0 +1,10 @@
+E:\CSharp Projects\Inventory\Inventory\bin\Debug\Inventory.exe.config
+E:\CSharp Projects\Inventory\Inventory\bin\Debug\Inventory.exe
+E:\CSharp Projects\Inventory\Inventory\bin\Debug\Inventory.pdb
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.csproj.AssemblyReference.cache
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.frmAddProduct.resources
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.Properties.Resources.resources
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.csproj.GenerateResource.cache
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.csproj.CoreCompileInputs.cache
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.exe
+E:\CSharp Projects\Inventory\Inventory\obj\Debug\Inventory.pdb
