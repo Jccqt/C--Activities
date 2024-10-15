@@ -1,0 +1,10 @@
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\bin\Debug\FrmBasicThread.exe.config
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\bin\Debug\FrmBasicThread.exe
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\bin\Debug\FrmBasicThread.pdb
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.csproj.AssemblyReference.cache
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.FrmBasicThread.resources
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.Properties.Resources.resources
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.csproj.GenerateResource.cache
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.csproj.CoreCompileInputs.cache
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.exe
+E:\CSharp Projects\FrmBasicThread\FrmBasicThread\obj\Debug\FrmBasicThread.pdb
