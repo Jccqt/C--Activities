@@ -1,0 +1,12 @@
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\bin\Debug\TextFileCreator.exe.config
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\bin\Debug\TextFileCreator.exe
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\bin\Debug\TextFileCreator.pdb
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.csproj.AssemblyReference.cache
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.frmFileName.resources
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.FrmLab1.resources
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.Properties.Resources.resources
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.csproj.GenerateResource.cache
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.csproj.CoreCompileInputs.cache
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.exe
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.pdb
+C:\Users\calayag.297700\source\repos\TextFileCreator\TextFileCreator\obj\Debug\TextFileCreator.FrmRegistration.resources
