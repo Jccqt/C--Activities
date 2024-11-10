@@ -13,6 +13,7 @@ namespace TextFileCreator
 {
     public partial class FrmRegistration : Form
     {
+    
         public FrmRegistration()
         {
             InitializeComponent();
@@ -20,6 +21,7 @@ namespace TextFileCreator
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             frmFileName.SetFileName = $"{txtStudentNo.Text}.txt";
             string[] studentInfo = {txtStudentNo.Text,
                 $"{txtLastName.Text}, {txtFirstName.Text},{txtMiddleName.Text}",
@@ -33,7 +35,7 @@ namespace TextFileCreator
                                 "Birthday: ", "Contact No.: "};
 
 
-            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            
 
             using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, frmFileName.SetFileName)))
             {
@@ -46,6 +48,23 @@ namespace TextFileCreator
             }
 
             MessageBox.Show("Registration Successfully!", "Successful Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            Array.Clear(studentLabel, 0, studentLabel.Length);
+            Array.Clear(studentInfo, 0, studentInfo.Length);
+            txtStudentNo.Clear();
+            txtFirstName.Clear();
+            txtLastName.Clear();
+            txtMiddleName.Clear();
+            txtAge.Clear();
+            txtContactNo.Clear();
+        }
+
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            using (FrmStudentRecord recordPage = new FrmStudentRecord())
+            {
+                recordPage.ShowDialog();
+            }
         }
     }
 }

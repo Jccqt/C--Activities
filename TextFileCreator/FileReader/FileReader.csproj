@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{45AE1135-31C5-44F1-B71E-482DCC97CDD4}</ProjectGuid>
+    <ProjectGuid>{3F3A112E-E8B9-450C-B391-2446D0F675EE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TextFileCreator</RootNamespace>
-    <AssemblyName>TextFileCreator</AssemblyName>
+    <RootNamespace>FileReader</RootNamespace>
+    <AssemblyName>FileReader</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,43 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmFileName.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmFileName.Designer.cs">
-      <DependentUpon>frmFileName.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmLab1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmLab1.Designer.cs">
-      <DependentUpon>FrmLab1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmRegistration.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmRegistration.Designer.cs">
-      <DependentUpon>FrmRegistration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmStudentRecord.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmStudentRecord.Designer.cs">
-      <DependentUpon>FrmStudentRecord.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmFileName.resx">
-      <DependentUpon>frmFileName.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmLab1.resx">
-      <DependentUpon>FrmLab1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmRegistration.resx">
-      <DependentUpon>FrmRegistration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmStudentRecord.resx">
-      <DependentUpon>FrmStudentRecord.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

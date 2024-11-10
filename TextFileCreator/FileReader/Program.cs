@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TextFileCreator
+namespace FileReader
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace TextFileCreator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmRegistration());
+            Application.Run(new FrmOpenTextFile());
         }
     }
 }

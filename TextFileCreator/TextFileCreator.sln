@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFileCreator", "TextFileCreator\TextFileCreator.csproj", "{45AE1135-31C5-44F1-B71E-482DCC97CDD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReader", "FileReader\FileReader.csproj", "{3F3A112E-E8B9-450C-B391-2446D0F675EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{45AE1135-31C5-44F1-B71E-482DCC97CDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AE1135-31C5-44F1-B71E-482DCC97CDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45AE1135-31C5-44F1-B71E-482DCC97CDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3A112E-E8B9-450C-B391-2446D0F675EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3A112E-E8B9-450C-B391-2446D0F675EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3A112E-E8B9-450C-B391-2446D0F675EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3A112E-E8B9-450C-B391-2446D0F675EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

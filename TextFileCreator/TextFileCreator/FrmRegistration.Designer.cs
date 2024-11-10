@@ -48,6 +48,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.btnRegister = new System.Windows.Forms.Button();
             this.cbProgram = new System.Windows.Forms.ComboBox();
+            this.btnRecords = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -252,11 +253,24 @@
             this.cbProgram.Size = new System.Drawing.Size(165, 24);
             this.cbProgram.TabIndex = 20;
             // 
+            // btnRecords
+            // 
+            this.btnRecords.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRecords.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRecords.Location = new System.Drawing.Point(553, 216);
+            this.btnRecords.Name = "btnRecords";
+            this.btnRecords.Size = new System.Drawing.Size(105, 31);
+            this.btnRecords.TabIndex = 21;
+            this.btnRecords.Text = "Records";
+            this.btnRecords.UseVisualStyleBackColor = true;
+            this.btnRecords.Click += new System.EventHandler(this.btnRecords_Click);
+            // 
             // FrmRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 275);
+            this.Controls.Add(this.btnRecords);
             this.Controls.Add(this.cbProgram);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.txtContactNo);
@@ -278,6 +292,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FrmRegistration";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmRegistration";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -306,5 +321,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.ComboBox cbProgram;
+        private System.Windows.Forms.Button btnRecords;
     }
 }

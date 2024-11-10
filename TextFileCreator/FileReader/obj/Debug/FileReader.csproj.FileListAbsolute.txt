@@ -1,0 +1,10 @@
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\bin\Debug\FileReader.exe.config
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\bin\Debug\FileReader.exe
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\bin\Debug\FileReader.pdb
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.csproj.AssemblyReference.cache
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.FrmOpenTextFile.resources
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.Properties.Resources.resources
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.csproj.GenerateResource.cache
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.csproj.CoreCompileInputs.cache
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.exe
+C:\Users\jcbca\Downloads\CSharp-Activities-main (1)\CSharp-Activities-main\TextFileCreator\FileReader\obj\Debug\FileReader.pdb
