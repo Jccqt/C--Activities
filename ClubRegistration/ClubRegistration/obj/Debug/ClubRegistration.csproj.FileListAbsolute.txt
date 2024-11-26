@@ -1,0 +1,13 @@
+E:\CSharp Projects\ClubRegistration\ClubRegistration\bin\Debug\ClubDB.mdf
+E:\CSharp Projects\ClubRegistration\ClubRegistration\bin\Debug\ClubDB_log.ldf
+E:\CSharp Projects\ClubRegistration\ClubRegistration\bin\Debug\ClubRegistration.exe.config
+E:\CSharp Projects\ClubRegistration\ClubRegistration\bin\Debug\ClubRegistration.exe
+E:\CSharp Projects\ClubRegistration\ClubRegistration\bin\Debug\ClubRegistration.pdb
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.csproj.AssemblyReference.cache
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.FrmClubRegistration.resources
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.FrmUpdateMember.resources
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.Properties.Resources.resources
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.csproj.GenerateResource.cache
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.csproj.CoreCompileInputs.cache
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.exe
+E:\CSharp Projects\ClubRegistration\ClubRegistration\obj\Debug\ClubRegistration.pdb
